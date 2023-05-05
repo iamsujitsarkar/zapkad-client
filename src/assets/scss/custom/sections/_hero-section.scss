@@ -1,0 +1,27 @@
+.hero-section {
+    background-image: url('/src/assets/images/hero-bg.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    @include media-breakpoint-up(lg) {
+        height: 500px;
+    }
+    @include media-breakpoint-up(xl) {
+        height: 550px;
+    }
+    @include media-breakpoint-up(xxl) {
+        height: 650px;
+    }
+
+    .images {
+        margin-top: 20px;
+        display: flex;
+        @include media-breakpoint-down(sm) {
+            img {
+                width: 100%;
+                max-width: 90%;
+            }
+        }
+    }
+}

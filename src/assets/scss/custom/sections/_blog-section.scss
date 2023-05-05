@@ -1,0 +1,17 @@
+.blog-section {
+    .blog-single {
+        border-radius: 30px;
+        img {
+            height: 300px;
+            width: 254px;
+            object-fit: cover;
+            border-top-left-radius: 30px;
+            // border-bottom-left-radius: 6px;
+        }
+        .bg-ovgl {
+            background: $warning;
+            padding: 10px;
+            border-radius: 0 0 30px 30px;
+        }
+    }
+}

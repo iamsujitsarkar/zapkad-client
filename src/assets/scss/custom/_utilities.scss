@@ -1,0 +1,18 @@
+$theme-colors-text: (
+  "primary": $primary,
+  "success": $success,
+  "warning": $warning,
+  "light": $light,
+  "dark": $dark
+);
+
+$utilities: (
+  "font-weight": (property: font-weight,
+    class: fw,
+    values: (
+      regular: $font-weight-regular,
+      bold: $font-weight-bold,
+      "extra-bold": $font-weight-extrabold,
+    ),
+  ),
+);

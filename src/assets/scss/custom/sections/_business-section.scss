@@ -1,0 +1,36 @@
+.business-section {
+    .business-card {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        border-radius: 20px;
+        padding: 70px;
+        color: $white;
+        &.onetap {
+            background-image: url('/src/assets/images/one-tap.png');
+        }
+        &.onsingle {
+            background-image: url('/src/assets/images/one-single.png');
+            .row {
+                justify-content: end;
+            }
+        }
+        &.easyon {
+            background-image: url('/src/assets/images/easy-on.png');
+        }
+        .row {
+            height: 100%;
+            align-items: center;
+        }
+        .card-info {
+            .title {
+                color: $light;
+            }
+            .desc {
+                color: $light;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,9 @@
+// colors
+$primary: #3F446C;
+$success: #252A3F;
+$light: #F2F5F7;
+$dark: #333333;
+$warning: #DAA521;
+$white: #fff;
+
+$all-colors: map-merge-multiple($primary, $success, $light, $dark, $warning, $white);
