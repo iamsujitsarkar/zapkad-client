@@ -1,8 +1,8 @@
 .step-section {
     .step-card {
-        background: $primary;
+        background: $success;
         border-radius: 20px;
-        height: 500px;
-        
+        min-height: 500px;
+        padding: 50px;
     }
 }

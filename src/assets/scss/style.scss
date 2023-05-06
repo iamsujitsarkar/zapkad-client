@@ -8,12 +8,19 @@
 // Components
 @import 'custom/components/helper';
 
+// Structure
+@import 'custom/structure/navbar';
+@import 'custom/structure/footer';
+
+
 // Sections
 @import 'custom/sections/hero-section';
 @import 'custom/sections/business-section';
 @import 'custom/sections/blog-section';
 @import 'custom/sections/contact-section';
 @import 'custom/sections/step-section';
+@import 'custom/sections/pricing-section';
+@import 'custom/sections/testimonial-section';
 
 
 
