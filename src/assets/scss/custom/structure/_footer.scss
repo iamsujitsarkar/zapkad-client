@@ -4,4 +4,10 @@
     background-image: url('/src/assets/images/footer-shape.png');
     background-repeat: no-repeat;
     background-position: 95% 0%;
+
+    .footer__link {
+        color: $white;
+        text-decoration: none;
+        font-size: 14px;
+    }
 }

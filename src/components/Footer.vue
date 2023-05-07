@@ -7,16 +7,16 @@
                         <div class="row">
                             <div class="col-6">
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Our Product</a></li>
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">For Everyone</a></li>
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">For Companies</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">Our Product</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">For Everyone</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">For Companies</a></li>
                                 </ul>
                             </div>
                             <div class="col-6">
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Pricing Plans</a></li>
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Sign Up / Log In</a></li>
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Shop</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">Pricing Plans</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">Sign Up / Log In</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">Shop</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -28,16 +28,16 @@
                         <div class="row">
                             <div class="col-6">
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Company</a></li>
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">About Us</a></li>
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">Company</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">About Us</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">FAQ</a></li>
                                 </ul>
                             </div>
                             <div class="col-6">
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Terms of Use</a></li>
-                                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">Contact Us</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">Terms of Use</a></li>
+                                    <li class="mb-2"><a href="#" class="footer__link">Privacy Policy</a></li>
                                 </ul>
                             </div>
                         </div>

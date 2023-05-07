@@ -4,5 +4,8 @@
         border-radius: 20px;
         min-height: 500px;
         padding: 50px;
+        @include media-breakpoint-up(xl) {
+            padding: 80px 50px 50px 50px;
+        }
     }
 }

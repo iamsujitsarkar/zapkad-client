@@ -19,11 +19,11 @@
                 itemsToShow: 2,
                 snapAlign: 'center',
             },
-            700: {
-                itemsToShow: 3.5,
+            576: {
+                itemsToShow: 3,
                 snapAlign: 'center',
             },
-            1024: {
+            992: {
                 itemsToShow: 5,
                 snapAlign: 'start',
             },
@@ -44,7 +44,7 @@
             <div class="row align-items-center mt-5">
                 <div class="col-1 text-end">
                     <a href="javascript:void(0)" @click="testCarousel.prev()">
-                        <img src="@/assets/images/testimonial/prev.png" alt="Previews" color="arrow__img" />
+                        <img src="@/assets/images/testimonial/prev.png" alt="Previews" class="arrow__img" />
                     </a>
                 </div>
                 <div class="col-9 mx-auto">
@@ -58,7 +58,7 @@
                 </div>
                 <div class="col-1">
                     <a href="javascript:void(0)" @click="testCarousel.next()">
-                        <img src="@/assets/images/testimonial/next.png" alt="Next" color="arrow__img" />
+                        <img src="@/assets/images/testimonial/next.png" alt="Next" class="arrow__img" />
                     </a>
                 </div>
             </div>
