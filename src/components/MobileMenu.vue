@@ -7,8 +7,13 @@
 
 <template>
     <div class="mobile-menu" :class="navbar.isShow && 'show'">
-        <div class="icon" @click="navbar.hide()">
-            <span>&#x2715;</span>
+        <div class="d-flex justify-content-between align-items-center p-3">
+            <a class="navbar-brand" href="#">
+                <img src="@/assets/images/logo.png" class="img-fluid" alt="Zapkad Logo" />
+            </a>
+            <div class="icon" @click="navbar.hide()">
+                <span>&#x2715;</span>
+            </div>
         </div>
         <div class="nav-area">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">

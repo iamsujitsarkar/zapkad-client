@@ -33,10 +33,14 @@
         margin-top: 20px;
         display: flex;
         @include media-breakpoint-down(sm) {
+            width: 100%;
+            max-width: 90%;
+        }
+        a {
             img {
-                width: 100%;
-                max-width: 90%;
+                border-radius: 10px;
             }
         }
+        
     }
 }

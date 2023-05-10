@@ -12,14 +12,16 @@
     box-shadow: $box-shadow-lg;
     transition: left .6s cubic-bezier(.6,.1,.68,.53);
 
+    .navbar-brand {
+        img {
+            max-width: 150px;
+        }
+    }
     &.show {
         left: 0;
     }
-
     .icon {
-        padding: 20px;
         font-size: 26px;
-        text-align: right;
     }
 
     .nav-area {
